@@ -187,7 +187,7 @@ traitfill_prepare <- function(dat, names) {
 
   i <- dat$N < dat$K
   if (any(i)) {
-    stop("Some rows have less species than data: ", pastec(i))
+    stop("Some rows have fewer species than data: ", pastec(i))
   }
 
   dat
