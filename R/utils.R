@@ -1,3 +1,4 @@
+## some utilities
 vlapply <- function(X, FUN, ...) {
   vapply(X, FUN, logical(1), ...)
 }
